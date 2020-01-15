@@ -6,10 +6,12 @@
 //  Copyright © 2019 Kenneth Liou. All rights reserved.
 //  API Key: c9fb8291c2f0489528d5a1025ec4795c
 
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    //update change
+    @State var updateVariable = 1
 
     @ObservedObject var weatherManager = WeatherManager()
     
